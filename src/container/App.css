@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Starjedi;
+    src: url(../fonts/Starjhol.ttf);
+}
+
+h1 {
+	padding-top: 100px;
+	font-family: Starjedi;
+	color: yellow;
+}
+
+.title {
+	font-size: 80px;
+}
+
+.load {
+	font-size: 20px;
+	padding: 5em;
+}

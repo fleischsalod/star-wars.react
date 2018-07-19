@@ -1,0 +1,49 @@
+@font-face {
+	font-family: LatoLight;
+    src: url(../fonts/Lato-Light.ttf);
+}
+
+@font-face {
+	font-family: LatoBold;
+    src: url(../fonts/Lato-Bold.ttf);
+}
+
+table {
+	table-layout: fixed;
+	width: 100%;
+	border: none;
+	border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid yellow;
+    padding: 10px;
+    border-bottom: none;
+    border-top: none;
+}
+
+hr {
+	border-color: yellow;
+}
+
+.card{
+	font-family: LatoLight;
+}
+
+.cardHeader {
+	font-family: LatoBold;
+	text-align: center;
+}
+
+.left {
+	text-align: right;
+	text-transform: uppercase;
+	border-left: none;
+	padding-right: 20px;
+}
+
+.right {
+	text-align: left;
+	border-right: none;
+	padding-left: 20px;
+}

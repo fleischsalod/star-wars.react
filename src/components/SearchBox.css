@@ -1,0 +1,18 @@
+div {
+	padding: 20px;
+}
+
+.searchbox {
+	color: yellow;
+	text-align: center;
+	padding: 15px;
+	background: transparent;
+	border: 2px solid yellow;
+	width: 50%;
+	border-radius: 25px;
+}
+
+.searchbox:focus {
+	outline: none;
+	border-width: 3px;
+}
